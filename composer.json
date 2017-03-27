@@ -1,9 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "ngs/base-fw",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
-    "type": "project",
+    "type": "library",
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
@@ -60,5 +60,6 @@
     },
     "config": {
         "preferred-install": "dist"
-    }
+    },
+    "minimum-stability": "dev"
 }
